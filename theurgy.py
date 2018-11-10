@@ -6821,7 +6821,7 @@ class MonitorThread(threading.Thread):
 		previous=request_counter
 		while flag==0:
 			if (previous+1<request_counter) & (previous<>request_counter):
-				print "%d | Requests Sent" % (request_counter)
+				print "%d | The missile is being launched" % (request_counter)
 				previous=request_counter
 		if flag==2:
 			print "--> theurgy Finished <--"
