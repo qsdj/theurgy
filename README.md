@@ -11,3 +11,7 @@ git clone https://github.com/flagellantX/theurgy
 cd theurgy
 python theurgy.py http://www.target.com/ or 127.0.0.1(ip adress)
 ```
+### add more stress:
+```
+just go to "user-agents" choose you want.
+```
